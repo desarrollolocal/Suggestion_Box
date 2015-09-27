@@ -11,3 +11,4 @@ CityCouncilResponsiblePerson.create(name: 'Maria', last_name: 'Pérez García', 
 
 suggestion = Suggestion.create({category: Suggestion.category[:suggestion], title: 'Suggestion of the year', author: 'Anonymous', email: 'my_email@email.com', comment: 'My suggestion!', latitude: nil, longitude: nil, visible: true, closed: 0, image1_id: 1, image2_id: 1})
 Comment.create(suggestion: suggestion, visible:true, email: 'my_other_email@email.com', vote: Comment::IN_FAVOUR, support: true, author: 'A real person!', text: 'Hey this is a comment')
+puts 'finished seeding'

@@ -45,7 +45,6 @@ $ git clone git@github.com:desarrollolocal/Suggestion_Box.git
 $ cd Suggestion_Box/
 $ bundle install --without production
 $ bundle exec rake db:setup
-$ bundle exec rake db:seed
 $ bundle exec rails s
 ```
 
