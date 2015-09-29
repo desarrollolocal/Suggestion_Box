@@ -44,6 +44,7 @@ el sistema le permite comentar una vez la sugerencia esta archivada.
 $ git clone git@github.com:desarrollolocal/Suggestion_Box.git
 $ cd Suggestion_Box/
 $ bundle install --without production
+$ cp config/examples/* config
 $ bundle exec rake db:setup
 $ bundle exec rails s
 ```
